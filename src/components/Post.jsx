@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Post = () => {
+const Post = ({id, title, thumbnail, desc, authorID}) => {
   return (
-    <div>Post</div>
+    <div>
+        {id}
+    </div>
   )
 }
 
