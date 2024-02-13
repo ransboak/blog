@@ -208,3 +208,21 @@ footer{
   color: var(--color-white);
   font-weight: 300;
 }
+
+/* ############## POSTS ######################### */
+
+.posts{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 3rem;
+}
+.post{
+  width: 16rem;
+  background: var(--color-gray-300);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.post img{
+  width: 100%;
+  border-radius: 1rem;
+}
