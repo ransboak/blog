@@ -11,9 +11,11 @@ const PostItem = ({id, title, thumbnail, desc, authorID}) => {
         <Link to={`posts/${id}`}>
           <h3>{title}</h3>
         </Link>
-        <small>{desc}</small>
+        <p>{desc.length > 40 ? desc.substr(0, 40) + "..." : desc}</p>
+        <div className="post__footer">
+          
+        </div>
       </div>
-        
     </Link>
   )
 }
