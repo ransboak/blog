@@ -216,22 +216,6 @@ footer{
 
 /* ############## POSTS ######################### */
 
-/* .posts{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  row-gap: 3rem;
-}
-.post{
-  width: 16rem;
-  background: var(--color-gray-300);
-  padding: 1rem;
-  border-radius: 1rem;
-}
-.post img{
-  width: 100%;
-  border-radius: 1rem;
-} */
-
 .posts__container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -275,4 +259,31 @@ footer{
   aspect-ratio: 1/1;
   border-radius: var(--radius-2);
   overflow: hidden;
+}
+
+/* ############################## POST DETAIL#######################################3 */
+.post-detail{
+  width: var(--form-width);
+  margin-inline: auto;
+  background: var(--color-white);
+  padding: 2rem 0;
+}
+.post-detail__header{
+  display: flex;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+}
+.post-detail__buttons{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.post-detail__thumbnail{
+  margin: 1rem 0;
+  height: fit-content;
+  max-height: 30rem;
+  overflow: hidden;
+}
+.post-detail p{
+  margin-bottom: 0.7rem;
 }
