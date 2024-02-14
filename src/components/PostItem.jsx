@@ -1,14 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Post = ({id, title, thumbnail, desc, authorID}) => {
+const PostItem = ({id, title, thumbnail, desc, authorID}) => {
   return (
     <Link to={`posts/${id}`} className='post'>
-        <img src={thumbnail} alt="" />
-        <h4>{title}</h4>
-        <p>{desc}</p>
+      <div className="post__thumbnail">
+      <img src={thumbnail} alt="" />
+      </div>
+      <div className="post__content">
+        <Link to={`posts/${id}`}>
+          <h3>{title}</h3>
+        </Link>
+        <small>{desc}</small>
+      </div>
+        
     </Link>
   )
 }
 
-export default Post
+export default PostItem
