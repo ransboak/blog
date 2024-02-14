@@ -2,7 +2,11 @@ import React from 'react'
 
 const PostDetail = () => {
   return (
-    <div>PostDetail</div>
+    <section className='post-detail'>
+      <div className="container post__container">
+        Post
+      </div>
+    </section>
   )
 }
 
