@@ -1,3 +1,8 @@
+import Thumbnail1 from './assets/blog1.jpg'
+import Thumbnail2 from './assets/blog2.jpg'
+import Thumbnail3 from './assets/blog3.jpg'
+import Thumbnail4 from './assets/blog4.jpg'
+
 const dummyPosts = [
     {
       id: 1,
