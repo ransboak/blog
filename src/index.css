@@ -328,3 +328,25 @@ input, select, textarea{
 .register small a, .login small a{
   color: var(--color-primary);
 }
+
+
+
+
+/* ############################## AUTHORS #######################################3 */
+.authors__container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.author{
+  display: flex;
+  background: var(--color-white);
+  padding: 1rem;
+  gap: 1.1rem;
+}
+.author-avatar{
+  width: 3rem;
+  aspect-ratio: 1/1;
+  border-radius: var(--radius-4);
+  overflow: hidden;
+}
